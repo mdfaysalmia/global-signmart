@@ -102,17 +102,17 @@ img {
 /* ================================================== 
         Navbar CSS Style 
 ==================================================== */
-.global-nav .navbar {
+.global-nav.navbar  {
     background-color: var(--primary-color);
 }
 
-.global-nav .navbar .collapse.navbar-collapse .navbar-brand img {
+.global-nav.navbar .navbar-brand img {
     max-width: 400px;
     padding: 0;
     margin: 0;
 }
 
-.global-nav .navbar .collapse.navbar-collapse .navbar-nav .nav-item .nav-link {
+.global-nav .offcanvas-body .nav-item .nav-link {
     display: block;
     font-size: 18px;
     color: #cfcdcd;
@@ -125,11 +125,15 @@ img {
     -o-transition: all 0.4s ease-in-out;
 }
 
-.global-nav .navbar .collapse.navbar-collapse .navbar-nav .nav-item .nav-link.active,
-.global-nav .navbar .collapse.navbar-collapse .navbar-nav .nav-item .nav-link:hover {
+.global-nav .offcanvas-body .nav-item .nav-link.active,
+.global-nav .offcanvas-body .nav-item .nav-link:hover {
     color: var(--white-color);
 }
-
+.global-nav button.navbar-toggler {
+    background: var(--white-color);
+    padding: 10px 20px;
+    color: var(--primary-color);
+}
 /* ================================================== 
         Breadcrumb CSS Style 
 ==================================================== */

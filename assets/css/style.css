@@ -602,6 +602,9 @@ border-top: 1px solid var(--gray-color);
 ============================================= */
 
 @media (max-width: 991px) {
+    .global-nav .navbar .toggle-btn .bar {
+        background-color: var(--primary-color);
+    }
     .printhead-area {
         padding: 100px 0px !important;
     }
